@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
-  /* Color Palette - Sleek Dark Mode */
   --bg-color: #0a0a0e;
   --surface-color: #16161e;
   --surface-hover: #1f1f2e;
@@ -11,10 +10,8 @@
   --accent-glow: rgba(56, 189, 248, 0.3);
   --border-color: rgba(255, 255, 255, 0.05);
 
-  /* Typography */
   --font-family: 'Inter', sans-serif;
   
-  /* Transitions */
   --transition-fast: 0.2s ease;
   --transition-normal: 0.3s ease;
 }
@@ -47,7 +44,6 @@ ul {
   list-style: none;
 }
 
-/* Layout Utilities */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -76,7 +72,6 @@ section {
   border-radius: 2px;
 }
 
-/* Navbar */
 .navbar {
   position: fixed;
   top: 0;
@@ -143,12 +138,11 @@ section {
   color: var(--accent-color);
 }
 
-/* Hero Section */
 .hero {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding-top: 5rem; /* Account for navbar */
+  padding-top: 5rem; 
 }
 
 .hero-content {
@@ -279,7 +273,6 @@ section {
   transform: scale(1.05);
 }
 
-/* Projects Section */
 .projects-container {
   display: flex;
   flex-direction: column;
@@ -413,7 +406,6 @@ section {
   display: block;
 }
 
-/* Skills Section - Infinite Logo Carousel */
 .skills-subtitle {
   text-align: center;
   color: var(--text-secondary);
@@ -514,12 +506,10 @@ section {
   color: var(--accent-color);
 }
 
-/* Pause on hover */
 .ticker-wrapper:hover .ticker-track {
   animation-play-state: paused;
 }
 
-/* Contact/Footer Section */
 .footer {
   background-color: var(--surface-color);
   padding: 4rem 0 2rem;
@@ -580,7 +570,6 @@ section {
   border-top: 1px solid var(--border-color);
 }
 
-/* Responsive Design */
 @media (max-width: 992px) {
   .hero-content {
     flex-direction: column-reverse;
